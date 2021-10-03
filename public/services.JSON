@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "HTML 5 Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 5,
+        "img": "https://github.com/netstermonir/img/blob/main/html.jpg?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "CSS 3 Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 5,
+        "img": "https://github.com/netstermonir/img/blob/main/css.jpg?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "BOOTSTRAP Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 5,
+        "img": "https://github.com/netstermonir/img/blob/main/bootstrap.jpg?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "JAVASCRIPT Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 4,
+        "img": "https://github.com/netstermonir/img/blob/main/javascript.png?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "PHP Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 3,
+        "img": "https://github.com/netstermonir/img/blob/main/php.jpg?raw=true"
+    },
+    {
+        "id": 6,
+        "name": "REACT Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 4,
+        "img": "https://github.com/netstermonir/img/blob/main/react-js.png?raw=true"
+    },
+    {
+        "id": 7,
+        "name": "NODE JS Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 4.5,
+        "img": "https://github.com/netstermonir/img/blob/main/nodejs.png?raw=true"
+    },
+    {
+        "id": 8,
+        "name": "LARAVEL 8 Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 5,
+        "img": "https://github.com/netstermonir/img/blob/main/laravel.png?raw=true"
+    },
+    {
+        "id": 9,
+        "name": "VUE JS Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 4,
+        "img": "https://github.com/netstermonir/img/blob/main/vuejs.png?raw=true"
+    },
+    {
+        "id": 10,
+        "name": "Python Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 4,
+        "img": "https://github.com/netstermonir/img/blob/main/python.jpg?raw=true"
+    },
+    {
+        "id": 11,
+        "name": "ANGULAR Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 4,
+        "img": "https://github.com/netstermonir/img/blob/main/angular.png?raw=true"
+    },
+    {
+        "id": 12,
+        "name": "TYPESCRIPT Course",
+        "duration": "3 months",
+        "certification": "yes",
+        "rate": 5,
+        "img": "https://github.com/netstermonir/img/blob/main/typescript.jpg?raw=true"
+    }
+]
