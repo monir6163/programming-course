@@ -3,6 +3,7 @@ import { Row, Spinner } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = (props) => {
+    // destructuring
     const { services } = props;
     return (
         <div className="container mt-5 mb-5">

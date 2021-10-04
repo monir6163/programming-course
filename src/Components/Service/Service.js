@@ -5,11 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faClock, faGraduationCap, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Service = (props) => {
+    // destructuring
+    const { name, duration, certification, enroll, price, img } = props.service;
+    //fontawesome icon
     const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />
     const clockIcon = <FontAwesomeIcon icon={faClock} />
     const certiIcon = <FontAwesomeIcon icon={faGraduationCap} />
     const enrolltiIcon = <FontAwesomeIcon icon={faUsers} />
-    const { name, duration, certification, enroll, price, img } = props.service;
     return (
         <div>
             <Col>

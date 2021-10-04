@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
+    // fontawesome icon 
     const facebookIcon = <FontAwesomeIcon icon={faFacebook} />
     const instagramIcon = <FontAwesomeIcon icon={faInstagram} />
     const githubIcon = <FontAwesomeIcon icon={faGithub} />

@@ -8,7 +8,9 @@ import Service from '../Service/Service';
 import { Link } from 'react-router-dom';
 
 const Home = (props) => {
+    // destructuring
     const { services } = props;
+    //fontawesome icon
     const bookIcon = <FontAwesomeIcon icon={faBook} />
     const bookOpen = <FontAwesomeIcon icon={faBookOpen} />
     const bookReader = <FontAwesomeIcon icon={faBookReader} />
@@ -72,7 +74,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            {/* our services  */}
+            {/* our services  4 data showing */}
             <section className="our-service mt-5 mb-5">
                 <div className="container">
                     <h2 className="text-center title-text">Our Services</h2>

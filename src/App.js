@@ -18,6 +18,7 @@ function App() {
       .then(data => setServices(data))
   }, []);
   return (
+    // router 
     <Router>
       <Header></Header>
       <Switch>
