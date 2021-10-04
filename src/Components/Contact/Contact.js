@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="container contact">
             <h2 className="mt-5 mb-5 text-center">Contact Us</h2>
             <div className="row">
-                <div className="col-md-6 col-12 border-right">
+                <div className="col-md-8 col-12 mx-auto">
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Full Name <span className="text-danger">*</span></Form.Label>
@@ -22,14 +22,15 @@ const Contact = () => {
                             <Form.Control as="textarea" rows={3} required />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                            <Form.Check type="checkbox" label="Check me out" />
+                            <Form.Check type="checkbox" label="Notify Best Offeres via Email" />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
+                        <Button onClick={(event) => {
+                            event.preventDefault();
+                        }} variant="primary" type="submit">
                             Send
                         </Button>
                     </Form>
                 </div>
-                <div className="col-md-6 col-12"></div>
             </div>
         </div>
     );

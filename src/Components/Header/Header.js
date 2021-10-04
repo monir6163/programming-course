@@ -2,8 +2,11 @@ import React from 'react';
 import './Header.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
+    const codeIcon = <FontAwesomeIcon icon={faCode} />
     const activeStyle = {
         fontWeight: "bold",
         color: "white"
@@ -13,7 +16,7 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container fluid>
                     <Navbar.Brand>
-                        <NavLink to="/" className="text-decoration-none fw-bolder mx-2 logo">Programming</NavLink>
+                        <NavLink to="/" className="text-decoration-none fw-bolder mx-2 logo">{codeIcon} Programming</NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

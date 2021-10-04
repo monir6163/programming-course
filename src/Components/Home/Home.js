@@ -24,7 +24,9 @@ const Home = (props) => {
                                 <h6 className="title-text">Are you ready to Learn?</h6>
                                 <h1>Learn With fun on <br /> <span>any Programming</span></h1>
                                 <p>You can Learn Web Programming By Using Our Website Easily.So , Choose a Course You Like & Enroll as Soon as Possible.</p>
-                                <Button variant="primary" className="get-btn">Get Started</Button>
+                                <Link to="/services">
+                                    <Button variant="primary" className="get-btn">Get Started Now</Button>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-6 col mt-2 w-50 ms-auto">

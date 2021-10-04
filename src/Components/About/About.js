@@ -26,13 +26,13 @@ const About = () => {
                             <Card.Body className="text-center">
                                 <Card.Title>Belinda</Card.Title>
                                 <Card.Title>JS DEVELOPER</Card.Title>
-                                <Card.Text>
-                                    <div className="social-icon">
-                                        <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
-                                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
-                                        <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
-                                    </div>
-                                </Card.Text>
+
+                                <div className="social-icon">
+                                    <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
+                                    <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
+                                </div>
+
                             </Card.Body>
                         </Card>
                     </Col>
@@ -42,13 +42,11 @@ const About = () => {
                             <Card.Body className="text-center">
                                 <Card.Title>Christian</Card.Title>
                                 <Card.Title>React Developer</Card.Title>
-                                <Card.Text>
-                                    <div className="social-icon">
-                                        <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
-                                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
-                                        <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
-                                    </div>
-                                </Card.Text>
+                                <div className="social-icon">
+                                    <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
+                                    <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -58,13 +56,11 @@ const About = () => {
                             <Card.Body className="text-center">
                                 <Card.Title>Robert</Card.Title>
                                 <Card.Title>Node Js Developer</Card.Title>
-                                <Card.Text>
-                                    <div className="social-icon">
-                                        <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
-                                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
-                                        <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
-                                    </div>
-                                </Card.Text>
+                                <div className="social-icon">
+                                    <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
+                                    <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -74,13 +70,11 @@ const About = () => {
                             <Card.Body className="text-center">
                                 <Card.Title>Jane Nguyen</Card.Title>
                                 <Card.Title>Laravel Developer</Card.Title>
-                                <Card.Text>
-                                    <div className="social-icon">
-                                        <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
-                                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
-                                        <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
-                                    </div>
-                                </Card.Text>
+                                <div className="social-icon">
+                                    <a href="https://facebook.com/monirweb.wdd" target="_blank" rel="noopener noreferrer"><span>{facebookIcon}</span></a>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>{instagramIcon}</span></a>
+                                    <a href="https://github.com/netstermonir/" target="_blank" rel="noopener noreferrer"><span>{githubIcon}</span></a>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
