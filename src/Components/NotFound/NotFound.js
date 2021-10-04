@@ -1,12 +1,13 @@
 import React from 'react';
 import notfound from '../../404.png';
+import './NotFound.css';
 
 const NotFound = () => {
     return (
-        <div className="container mt-5 mb-5">
-            <h2 className="text-center text-danger">Sorry No Result Fount In This Time</h2>
-            <div>
-                <img className="w-100 mx-auto" src={notfound} alt={notfound} />
+        <div className="container mt-5 mb-5 notfound">
+            <h2 className="text-center"><span className="wrong">Something Went Wrong,</span><span className="page">Sorry Page Not Found</span></h2>
+            <div className="text-center">
+                <img className="img-not img-fluid" src={notfound} alt={notfound} />
             </div>
         </div>
     );

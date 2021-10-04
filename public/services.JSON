@@ -1,98 +1,110 @@
 [
     {
         "id": 1,
-        "name": "HTML 5 Course",
+        "name": "HTML 5  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 5,
+        "enroll": 60,
+        "price": 25,
         "img": "https://github.com/netstermonir/img/blob/main/html.jpg?raw=true"
     },
     {
         "id": 2,
-        "name": "CSS 3 Course",
+        "name": "CSS 3  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 5,
+        "enroll": 55,
+        "price": 35,
         "img": "https://github.com/netstermonir/img/blob/main/css.jpg?raw=true"
     },
     {
         "id": 3,
-        "name": "BOOTSTRAP Course",
+        "name": "BOOTSTRAP  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 5,
+        "enroll": 50,
+        "price": 40,
         "img": "https://github.com/netstermonir/img/blob/main/bootstrap.jpg?raw=true"
     },
     {
         "id": 4,
-        "name": "JAVASCRIPT Course",
+        "name": "JAVASCRIPT  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 4,
+        "enroll": 40,
+        "price": 50,
         "img": "https://github.com/netstermonir/img/blob/main/javascript.png?raw=true"
     },
     {
         "id": 5,
-        "name": "PHP Course",
+        "name": "PHP  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 3,
+        "enroll": 30,
+        "price": 55,
         "img": "https://github.com/netstermonir/img/blob/main/php.jpg?raw=true"
     },
     {
         "id": 6,
-        "name": "REACT Course",
+        "name": "REACT  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 4,
+        "enroll": 45,
+        "price": 60,
         "img": "https://github.com/netstermonir/img/blob/main/react-js.png?raw=true"
     },
     {
         "id": 7,
-        "name": "NODE JS Course",
+        "name": "NODE JS  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 4.5,
+        "enroll": 59,
+        "price": 65,
         "img": "https://github.com/netstermonir/img/blob/main/nodejs.png?raw=true"
     },
     {
         "id": 8,
-        "name": "LARAVEL 8 Course",
+        "name": "LARAVEL 8  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 5,
+        "enroll": 56,
+        "price": 70,
         "img": "https://github.com/netstermonir/img/blob/main/laravel.png?raw=true"
     },
     {
         "id": 9,
-        "name": "VUE JS Course",
+        "name": "VUE JS  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 4,
+        "enroll": 42,
+        "price": 75,
         "img": "https://github.com/netstermonir/img/blob/main/vuejs.png?raw=true"
     },
     {
         "id": 10,
-        "name": "Python Course",
+        "name": "Python  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 4,
+        "enroll": 46,
+        "price": 80,
         "img": "https://github.com/netstermonir/img/blob/main/python.jpg?raw=true"
     },
     {
         "id": 11,
-        "name": "ANGULAR Course",
+        "name": "ANGULAR  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 4,
+        "enroll": 49,
+        "price": 85,
         "img": "https://github.com/netstermonir/img/blob/main/angular.png?raw=true"
     },
     {
         "id": 12,
-        "name": "TYPESCRIPT Course",
+        "name": "TYPESCRIPT  ",
         "duration": "3 months",
         "certification": "yes",
-        "rate": 5,
+        "enroll": 58,
+        "price": 90,
         "img": "https://github.com/netstermonir/img/blob/main/typescript.jpg?raw=true"
     }
 ]
