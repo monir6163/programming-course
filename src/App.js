@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import { useEffect, useState } from 'react';
 import Contact from './Components/Contact/Contact';
+import Enroll from './Components/Enroll/Enroll';
 
 function App() {
   const [services, setServices] = useState([]);
@@ -28,14 +29,17 @@ function App() {
         <Route path="/home">
           <Home services={services}></Home>
         </Route>
-        <Route path="/services">
-          <Services services={services}></Services>
-        </Route>
         <Route path="/about">
           <About></About>
         </Route>
+        <Route path="/services">
+          <Services services={services}></Services>
+        </Route>
         <Route path="/contact">
           <Contact></Contact>
+        </Route>
+        <Route path="/enroll">
+          <Enroll></Enroll>
         </Route>
         <Route path="*">
           <NotFound></NotFound>

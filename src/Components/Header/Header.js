@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
@@ -21,17 +21,20 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <NavLink to="/home" className="text-decoration-none fw-bolder mx-2 nav-link" activeStyle={activeStyle}>
+                            <NavLink to="/home" className="text-decoration-none fw-bolder mx-2 mt-1 nav-link" activeStyle={activeStyle}>
                                 Home
                             </NavLink>
-                            <NavLink to="/services" className="text-decoration-none fw-bolder mx-2 nav-link" activeStyle={activeStyle}>
-                                Services
-                            </NavLink>
-                            <NavLink to="/about" className="text-decoration-none fw-bolder mx-2 nav-link" activeStyle={activeStyle}>
+                            <NavLink to="/about" className="text-decoration-none fw-bolder mx-2 mt-1 nav-link" activeStyle={activeStyle}>
                                 About Us
                             </NavLink>
-                            <NavLink to="/contact" className="text-decoration-none fw-bolder mx-2 nav-link" activeStyle={activeStyle}>
+                            <NavLink to="/services" className="text-decoration-none fw-bolder mx-2 mt-1 nav-link" activeStyle={activeStyle}>
+                                Services
+                            </NavLink>
+                            <NavLink to="/contact" className="text-decoration-none fw-bolder mx-2 mt-1 nav-link" activeStyle={activeStyle}>
                                 Contact Us
+                            </NavLink>
+                            <NavLink to="/enroll" className="text-decoration-none fw-bolder mx-2 nav-link" activeStyle={activeStyle}>
+                                <Button variant="secondary">Enroll now</Button>
                             </NavLink>
                         </Nav>
                     </Navbar.Collapse>

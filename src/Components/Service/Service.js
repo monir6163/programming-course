@@ -3,6 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import './Service.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faClock, faGraduationCap, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Service = (props) => {
     // destructuring
@@ -30,7 +31,9 @@ const Service = (props) => {
                     <Card.Footer>
                         <div className="d-flex flex-column flex-md-row justify-content-between">
                             <span className="fw-bolder text-muted">Price: ${price}</span>
-                            <Button variant="success" className="get-btn">{cartIcon} Enroll Now</Button>
+                            <Link to="/enroll">
+                                <Button variant="success" className="get-btn">{cartIcon} Enroll Now</Button>
+                            </Link>
                         </div>
                     </Card.Footer>
                 </Card>
